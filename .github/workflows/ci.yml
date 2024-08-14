@@ -1,0 +1,22 @@
+name: "Aggregate themes"
+on:
+  push:
+    branches:
+      - master
+  pull_request:
+    types: [opened, reopened]
+  schedule:
+  - cron: "0 3 * * *"
+
+jobs:
+  stale:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v1
+      - name: Build
+        run: make
+      - name: Aggregation artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: zellij_themes
+          path: build/*
