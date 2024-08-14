@@ -4,9 +4,13 @@ An aggregator of various zellij themes.
 
 ## How to build ? 
 
+Clone this repository and run the command below, it will fetch all the themes in their latest version (using the default branch of their repo). The themes can be found in the `build/` folder after running the command.
+
 ```sh
 make
 ```
+
+If you want to download the themes directly you can download the latest artifact from the CI run on master.
 
 ## How to install themes ? 
 
