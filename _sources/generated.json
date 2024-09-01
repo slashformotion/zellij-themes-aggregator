@@ -1,0 +1,82 @@
+{
+    "rebecca": {
+        "cargoLocks": null,
+        "date": "2024-06-26",
+        "extract": null,
+        "name": "rebecca",
+        "passthru": null,
+        "pinned": false,
+        "src": {
+            "deepClone": false,
+            "fetchSubmodules": false,
+            "leaveDotGit": false,
+            "name": null,
+            "owner": "vic",
+            "repo": "zellij-rebecca-theme",
+            "rev": "11329a8eb7f3b85ae4585ea3f5e62343f612d5be",
+            "sha256": "sha256-z5YgUSl/5s8XY1fm1hpnRAG1owrEIMMGBoGN1Mj6ZJg=",
+            "type": "github"
+        },
+        "version": "11329a8eb7f3b85ae4585ea3f5e62343f612d5be"
+    },
+    "rose-pine": {
+        "cargoLocks": null,
+        "date": "2024-01-11",
+        "extract": null,
+        "name": "rose-pine",
+        "passthru": null,
+        "pinned": false,
+        "src": {
+            "deepClone": false,
+            "fetchSubmodules": false,
+            "leaveDotGit": false,
+            "name": null,
+            "owner": "rose-pine",
+            "repo": "zellij",
+            "rev": "53835422f965e6c88b9ad59e11d343ca4552bf6d",
+            "sha256": "sha256-VNqd1Qt6LibK7M8KirUhtwpVYAvsgn2e96wAf/YMQzI=",
+            "type": "github"
+        },
+        "version": "53835422f965e6c88b9ad59e11d343ca4552bf6d"
+    },
+    "sobrio": {
+        "cargoLocks": null,
+        "date": "2023-06-22",
+        "extract": null,
+        "name": "sobrio",
+        "passthru": null,
+        "pinned": false,
+        "src": {
+            "deepClone": false,
+            "fetchSubmodules": false,
+            "leaveDotGit": false,
+            "name": null,
+            "owner": "elvessousa",
+            "repo": "sobrio-zellij",
+            "rev": "ccf26be71cfe9d20796e8c661234443b2b2e10f1",
+            "sha256": "sha256-YL0xDJUtc66rP/ac8v1n/9xe1NtRVrR8f5JYQmaI//8=",
+            "type": "github"
+        },
+        "version": "ccf26be71cfe9d20796e8c661234443b2b2e10f1"
+    },
+    "zellij": {
+        "cargoLocks": null,
+        "date": "2024-08-29",
+        "extract": null,
+        "name": "zellij",
+        "passthru": null,
+        "pinned": false,
+        "src": {
+            "deepClone": false,
+            "fetchSubmodules": false,
+            "leaveDotGit": false,
+            "name": null,
+            "owner": "zellij-org",
+            "repo": "zellij",
+            "rev": "489c4da5ffaf38526b76bad4ce09da63ae99331e",
+            "sha256": "sha256-uvlUSaQQpc8DIPBFf3h/NtwqJAUp6B4uQ4eWYt25xpM=",
+            "type": "github"
+        },
+        "version": "489c4da5ffaf38526b76bad4ce09da63ae99331e"
+    }
+}

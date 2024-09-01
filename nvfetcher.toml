@@ -1,0 +1,21 @@
+
+
+[zellij]
+src.git = "https://github.com/zellij-org/zellij"
+fetch.github = "zellij-org/zellij"
+
+[rose-pine]
+src.git = "https://github.com/rose-pine/zellij"
+fetch.github = "rose-pine/zellij"
+
+
+[rebecca]
+src.git = "https://github.com/vic/zellij-rebecca-theme"
+fetch.github = "vic/zellij-rebecca-theme"
+
+[sobrio]
+src.git = "https://github.com/elvessousa/sobrio-zellij"
+fetch.github = "elvessousa/sobrio-zellij"
+
+
+
