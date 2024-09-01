@@ -4,7 +4,7 @@ on:
     branches:
       - master
   schedule:
-    - cron: '0 */2 * * *'
+    - cron: "0 3 * * *"
 
 jobs:
   nvfetcher:
@@ -32,7 +32,7 @@ jobs:
 
     - name: Run flake check
       run: nix flake check
-      
+
     - name: Commit changes
       uses: stefanzweifel/git-auto-commit-action@v4
       with:
