@@ -28,6 +28,9 @@ jobs:
 
     - name: Run flake check
       run: nix flake check
+    
+    - name: check if changes
+      run: git diff --quiet && git diff --cached --quiet && export COMMIT_MSG="update sources"
 
     - name: Commit changes
       if: ${{ env.COMMIT_MSG != null }}
