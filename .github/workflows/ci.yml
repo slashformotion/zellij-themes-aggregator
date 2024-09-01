@@ -5,8 +5,7 @@ on:
       - master
   pull_request:
     types: [opened, reopened]
-  schedule:
-  - cron: "0 3 * * *"
+
 
 jobs:
   stale:
