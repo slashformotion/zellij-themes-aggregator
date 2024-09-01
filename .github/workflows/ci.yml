@@ -12,11 +12,21 @@ jobs:
   stale:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v1
-      - name: Build
-        run: make
-      - name: Aggregation artifact
-        uses: actions/upload-artifact@v4
+      - uses: actions/checkout@v3
+      - uses: cachix/install-nix-action@v27
         with:
-          name: zellij_themes
-          path: build/*
+          nix_path: nixpkgs=channel:nixos-unstable
+          github_access_token: ${{ secrets.GITHUB_TOKEN }}
+      - uses: cachix/cachix-action@v15
+        with:
+          name: berberman
+          signingKey: '${{ secrets.CACHIX_SIGNING_KEY }}'
+
+      - name: Run nvfetcher
+        run: nix develop --command nvfetcher
+            
+      - name: Run flake check
+        run: nix flake check
+      
+      - name: Build package
+        run: nix build
