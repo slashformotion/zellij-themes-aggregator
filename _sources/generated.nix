@@ -39,14 +39,14 @@
   };
   zellij = {
     pname = "zellij";
-    version = "489c4da5ffaf38526b76bad4ce09da63ae99331e";
+    version = "ea57d9a73026bbc6f9c7f1a7803067ad365584cb";
     src = fetchFromGitHub {
       owner = "zellij-org";
       repo = "zellij";
-      rev = "489c4da5ffaf38526b76bad4ce09da63ae99331e";
+      rev = "ea57d9a73026bbc6f9c7f1a7803067ad365584cb";
       fetchSubmodules = false;
-      sha256 = "sha256-uvlUSaQQpc8DIPBFf3h/NtwqJAUp6B4uQ4eWYt25xpM=";
+      sha256 = "sha256-Ec3kI2h7prk1/yyxRQXnN7hRHKhWy1NWhc/XGMRSCEA=";
     };
-    date = "2024-08-29";
+    date = "2024-12-06";
   };
 }
